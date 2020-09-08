@@ -92,3 +92,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 1199px) {
+  .copy {
+    position: absolute;
+    top: 145px;
+    right: 15px;
+    cursor: pointer;
+    opacity: 0.2;
+  }
+}
