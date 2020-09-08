@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Password Generator App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="inputBox">
+      <h2>Random Password Generator App</h2>
+      <input
+        type="text"
+        name=""
+        placeholder="Create Password"
+        id="password"
+        readonly=""
+      />
+      <img src="copy.png" class="copy" onclick="copyPassword();" />
+      <div id="btn" onclick="getPassword();">Generate Password</div>
+    </div>
+    <div class="alertBox"></div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
