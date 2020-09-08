@@ -93,7 +93,7 @@ body {
   align-items: center;
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1000px) {
   .copy {
     position: absolute;
     top: 145px;
@@ -101,4 +101,13 @@ body {
     cursor: pointer;
     opacity: 0.2;
   }
+  .alertBox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 500px) {
 }
